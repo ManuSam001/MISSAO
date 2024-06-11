@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".caixa-resultado");
 
 const perguntas = [
     {
-      enunciado: "Qual a melhor meneira de se combater o desmatamento", 
+      enunciado: "Qual a melhor meneira de se combater o desmatamento?", 
       alternativas: [
         "Reflorestamento de áreas degradadas", 
         "Implementação de leis mais rigorosas para a proteção das florestas"
     ]
   },
   {
-    enunciado: "Como podemos combater a desigualdade social eficaz e sustentável", 
+    enunciado: "Como podemos combater a desigualdade social eficaz e sustentável?", 
     alternativas: [
         "Implementar programas de educação e formação profissional acessíveis a todos", 
         "Políticas de redistribuiçaõ de renda e oportunidades"
