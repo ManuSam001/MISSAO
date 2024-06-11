@@ -6,8 +6,8 @@ const textoResultado = document.querySelector(".caixa-resultado");
 
 const perguntas = [
     {
-    enunciado: "Qual a melhor meneira de se combater o desmatamento", 
-    alternativas: [
+      enunciado: "Qual a melhor meneira de se combater o desmatamento", 
+      alternativas: [
         "Reflorestamento de áreas degradadas", 
         "Implementação de leis mais rigorosas para a proteção das florestas"
     ]
