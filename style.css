@@ -1,10 +1,9 @@
 :root{
-    --cor-fundo:#080808;
-    --cor-principal:#181818;
-    --cor-secundaria:#212930 ;
-    --destaque:#c40000;
-    --cor-texto: rgb(253, 238, 238);
-
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
 }
 
 body{
@@ -16,7 +15,7 @@ body{
     min-height: 100vh;
 }
 
-.caixa-pricipal{
+.caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
     max-width: 600px;
@@ -25,5 +24,9 @@ body{
 }
 
 h1{
-    color: var(--destaque);
+    color: var(--cor-destaque);
+}
+
+.caixa-perguntas{
+    padding-bottom: 10px;
 }
