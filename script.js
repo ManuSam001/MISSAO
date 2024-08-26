@@ -29,11 +29,11 @@ let historiaFinal = "";
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    mostraAlternativas();
 }
 
+mostraPergunta();
 
-function mostraAlternativas(){
+function mostraAlternativas(){      //criando os botões de alternativas
     for(const Alternativa of perguntaAtual.alternativas){
         const botaoalternativas = document.createElement("button")
         botaoAlternativas.textContent = alternativas.texto;
